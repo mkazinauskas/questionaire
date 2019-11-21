@@ -23,7 +23,7 @@ class Navigation extends React.Component {
                             <Image size='mini' src='/logo512.png' style={{ marginRight: '1.5em' }} />
                             Darbų saugos mokymai
                   </Menu.Item>
-                        <Menu.Item as={Link} to="/">Visi Klausimai ir Atsakymai</Menu.Item>
+                        <Menu.Item as={Link} to="/">Klausimai ir Atsakymai</Menu.Item>
                         <Menu.Item as={Link} to="/test">Testas</Menu.Item>
                     </Container>
                 </Menu>
