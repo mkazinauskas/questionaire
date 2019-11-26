@@ -192,6 +192,40 @@ const QuestionsDatabase = [
                 ),
             ]
         ), 
+        new Question(
+            'Kas organizuoja pirmosios pagalbos suteikimą darbuotojams?',
+            [
+                new Answer(
+                    'Asmens sveikatos priežiūros darbuotojas.',
+                    false
+                ),
+                new Answer(
+                    'Padalinio vadovas, o kai jo nėra - darbdavio įgaliotas asmuo ar darbdaviui atstovaujantis asmuo.',
+                    true
+                ),
+                new Answer(
+                    'Teisės aktai nereglamentuoja.',
+                    false
+                ),
+            ]
+        ), 
+        new Question(
+            'Profesinio poveikio ribinis dydis, pagal Darbuotojų apsaugos nuo cheminių veiksnių darbe nuostatus, tai:',
+            [
+                new Answer(
+                    'darbuotojo įkvepiamame ore esančių neaiškios kilmės cheminių medžiagų kiekis.',
+                    false
+                ),
+                new Answer(
+                    'cheminio veiksnio darbuotojo kvėpavimo zonos ore vidutinės koncentracijos, išmatuotos per standartizuotą tyrimo laikotarpį, vidutinis leistinas dydis.',
+                    false
+                ),
+                new Answer(
+                    'cheminio veiksnio darbuotojo kvėpavimo zonos ore vidutinės koncentracijos, išmatuotos per standartizuotą tyrimo laikotarpį, didžiausias leistinas dydis.',
+                    true
+                ),
+            ]
+        ), 
     ]
     )
 ];

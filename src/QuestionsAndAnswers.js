@@ -15,7 +15,7 @@ function renderAnswer(answer) {
 
 function renderQuestion(question) {
     return (
-        <div>
+        <div style={{ 'padding-bottom': '30px' }}>
             <Header as='h3'>{question.title}</Header>
             {question.answers.map(answer => renderAnswer(answer))}
         </div>
