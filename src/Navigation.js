@@ -23,11 +23,11 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <Router>
+            <Router basename="/questionaire">
                 <Menu fixed='top' inverted>
                     <Container>
                         <Menu.Item as={Link} header to="/">
-                            <Image size='mini' src='/logo512.png' style={{ marginRight: '1.5em' }} />
+                            <Image size='mini' src='logo512.png' style={{ marginRight: '1.5em' }} />
                             Darbų saugos mokymai
                   </Menu.Item>
                         <Menu.Item as={NavLink} to="/questions-and-answers" activeClassName="active" >Klausimai ir Atsakymai</Menu.Item>
