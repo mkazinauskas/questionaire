@@ -7,10 +7,9 @@ import {
     Link
 } from "react-router-dom";
 import QuestionsAndAnswers from './QuestionsAndAnswers';
-import Test from './Test';
+import TestView from './test/TestView';
 import {
     Container,
-    Image,
     Menu,
 } from 'semantic-ui-react'
 import Home from './Home';
@@ -27,7 +26,6 @@ class Navigation extends React.Component {
                 <Menu fixed='top' inverted>
                     <Container>
                         <Menu.Item as={Link} header to="/">
-                            <Image size='mini' src='logo512.png' style={{ marginRight: '1.5em' }} />
                             Darbų saugos mokymai
                   </Menu.Item>
                         <Menu.Item as={NavLink} to="/questions-and-answers" activeClassName="active" >Klausimai ir Atsakymai</Menu.Item>
@@ -38,7 +36,7 @@ class Navigation extends React.Component {
                 <Container text style={{ marginTop: '7em' }}>
                     <Switch>
                         <Route path="/test">
-                            <Test />
+                            <TestView />
                         </Route>
                         <Route path="/questions-and-answers">
                             <QuestionsAndAnswers />

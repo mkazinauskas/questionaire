@@ -19,7 +19,7 @@ class TestGroup {
     }
 }
 
-const QuestionsDatabase = [
+const Database = [
     new TestGroup(
         '14-1', [
         new Question(
@@ -722,5 +722,9 @@ const QuestionsDatabase = [
     ]
     )
 ];
+
+function QuestionsDatabase(){
+    return JSON.parse(JSON.stringify(Database));
+}
 
 export default QuestionsDatabase;
