@@ -1,7 +1,6 @@
 import React from 'react'
 import { Header } from 'semantic-ui-react';
-import { Checkbox } from 'semantic-ui-react';
-import { Button, Divider, Input, Segment } from 'semantic-ui-react';
+import { Checkbox, Divider } from 'semantic-ui-react';
 import QuestionsDatabase from './QuestionsDatabase';
 
 function renderAnswer(answer) {
