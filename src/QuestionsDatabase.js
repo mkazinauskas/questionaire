@@ -446,7 +446,279 @@ const QuestionsDatabase = [
                     true
                 ),
             ]
-        ),                      
+        ),      
+        new Question(
+            'Kaip turi būti įrengti vartai skirti transporto priemonių eismui steigiamose darbovietėse?',
+            [
+                new Answer(
+                    'Transporto priemonių eismui skirti vartai negali būti atveriami, jie turi būti pakeliami.',
+                    false
+                ),
+                new Answer(
+                    'Transporto priemonių eismui skirti vartai turi būti aiškiai paženklinti ženklais draudžiančiais pro juos vaikščioti pėstiesiems.',
+                    false
+                ),
+                new Answer(
+                    'Šalia kiekvienų vartų, skirtų transporto priemonių eismui, turi būti įrengtos durys pėstiesiems.',
+                    true
+                ),
+            ]
+        ),    
+        new Question(
+            'Ar nepalankios darbo aplinkos sąlygos, tokios kaip netinkama temperatūra, drėgmė ir vėdinimas, gali padidinti riziką, ypač susižaloti nugarą?',
+            [
+                new Answer(
+                    'Rizika susižaloti nugarą priklauso nuo krovinio, bet ne nuo darbo aplinkos.',
+                    false
+                ),
+                new Answer(
+                    'Taip, netinkama temperatūra, drėgmė ir vėdinimas, gali padidinti riziką, ypač susižaloti nugarą.',
+                    true
+                ),
+                new Answer(
+                    'Ne, šios darbo aplinkos sąlygos nekelia rizikos susižaloti nugarą.',
+                    false
+                ),
+            ]
+        ),      
+        new Question(
+            'Ar nepalankios darbo aplinkos sąlygos, tokios kaip netinkama temperatūra, drėgmė ir vėdinimas, gali padidinti riziką, ypač susižaloti nugarą?',
+            [
+                new Answer(
+                    'Rizika susižaloti nugarą priklauso nuo krovinio, bet ne nuo darbo aplinkos.',
+                    false
+                ),
+                new Answer(
+                    'Taip, netinkama temperatūra, drėgmė ir vėdinimas, gali padidinti riziką, ypač susižaloti nugarą.',
+                    true
+                ),
+                new Answer(
+                    'Ne, šios darbo aplinkos sąlygos nekelia rizikos susižaloti nugarą.',
+                    false
+                ),
+            ]
+        ),    
+        new Question(
+            'Kas kontroliuoja kaip įmonėse laikomasi darbuotojų saugos ir sveikatos norminių teisės aktų reikalavimų?',
+            [
+                new Answer(
+                    'Socialinės apsaugos ir darbo ministerija.',
+                    false
+                ),
+                new Answer(
+                    'Prokuratūra.',
+                    false
+                ),
+                new Answer(
+                    'Valstybinė darbo inspekcija.',
+                    true
+                ),
+            ]
+        ),   
+        new Question(
+            'Įrengiant darbo vietas turi būti įvertinta:',
+            [
+                new Answer(
+                    'darbuotojo fizinės galimybės.',
+                    true
+                ),
+                new Answer(
+                    'darbuotojo žalingi įpročiai.',
+                    false
+                ),
+                new Answer(
+                    'darbuotojo priklausymas profsąjungoms.',
+                    false
+                ),
+            ]
+        ),    
+        new Question(
+            'Ar jaunam asmeniui suteikiamas darbas privalo būti saugus, nekelti pavojaus sveikatai, fizinei ir protinei raidai, nepakenkti mokymuisi?',
+            [
+                new Answer(
+                    'Taip.',
+                    true
+                ),
+                new Answer(
+                    'Teisės aktai nereglamentuoja.',
+                    false
+                ),
+                new Answer(
+                    'Ne.',
+                    false
+                ),
+            ]
+        ),   
+        new Question(
+            'Ar lynai gali būti naudojami kaip priemonė patekimui į darbo vietas?',
+            [
+                new Answer(
+                    'Negali, nes tai draudžia darboviečių įrengimo bendrieji nuostatai.',
+                    false
+                ),
+                new Answer(
+                    'Gali, jeigu yra laikomasi reikalavimų išdėstytų darbo įrenginių naudojimo bendruosiuose nuostatuose.',
+                    true
+                ),
+                new Answer(
+                    'Negali, nes lynus naudojant kaip priemonę patekimui į darbo vietas neįmanoma pilnai užtikrinti darbuotojų saugos.',
+                    false
+                ),
+            ]
+        ),      
+        new Question(
+            'Įmonėje lengvų nelaimingų atsitikimų darbe aktai ir tyrimo medžiaga saugomi:',
+            [
+                new Answer(
+                    'laikantis Lietuvos vyriausiojo archyvaro tarnybos nustatytų dokumentų saugojimo terminų.',
+                    true
+                ),
+                new Answer(
+                    '5 metus.',
+                    false
+                ),
+                new Answer(
+                    '15 metų.',
+                    false
+                ),
+            ]
+        ),      
+        new Question(
+            'Ar reikia darbdaviui atstovaujančiam asmeniui tobulinti kvalifikaciją darbuotojų saugos ir sveikatos klausimais?',
+            [
+                new Answer(
+                    'Ne, jeigu jis vykdo darbuotojų saugos ir sveikatos tarnybos funkcijas.',
+                    false
+                ),
+                new Answer(
+                    'Taip, jeigu jis atlieka darbuotojų saugos ir sveikatos tarnybos funkcijas.',
+                    true
+                ),
+                new Answer(
+                    'Taip, atestuojantis kas 5 metai.',
+                    false
+                ),
+            ]
+        ),  
+        new Question(
+            'Ką turi turėti uždarų patalpų vėdinimo įranga?',
+            [
+                new Answer(
+                    'Teisės aktai nereglamentuoja reikalavimų vėdinimo įrangoms, jie nustatyti tik įrangos gamintojo dokumentuose.',
+                    false
+                ),
+                new Answer(
+                    'Ši įranga turi turėti kontrolės sistemą, nurodančią bet kokį vėdinimo įrangos gedimą.',
+                    true
+                ),
+                new Answer(
+                    'Ši įranga turi būti paženklinta CE ženklu ir jos filtrai keičiami ne rečiau kaip kartą į metus, nepriklausomai nuo naudojimo trukmės.',
+                    false
+                ),
+            ]
+        ),  
+        new Question(
+            'Ką reiškia sąvoka "darbo vieta"( Darbuotojų saugos ir sveikatos įstatymas)?',
+            [
+                new Answer(
+                    'Tai vieta, kurioje gali būti darbuotojo sveikatai kenksmingų, pavojingų rizikos veiksnių (fizinių, fizikinių, cheminių, biologinių ir kitų).',
+                    false
+                ),
+                new Answer(
+                    'Tai vieta, kurioje, aplinka, darbo pobūdis, darbo ir poilsio laikas ir kitos aplinkybės, galinčios turėti tiesioginę įtaką darbuotojo savijautai, darbingumui, saugai ir sveikatai.',
+                    false
+                ),
+                new Answer(
+                    'Tai vieta, kurioje asmuo dirba darbo sutartyje sulygtą darbą arba atlieka viešojo administravimo funkcijas.',
+                    true
+                ),
+            ]
+        ),   
+        new Question(
+            'Ar naudojant fizinę jėgą gali atsirasti rizika ypač susižeisti nugarą, jei fizinė jėga naudojama tik sukant liemenį?',
+            [
+                new Answer(
+                    'Rizika priklauso nuo darbuotojo sveikatos.',
+                    false
+                ),
+                new Answer(
+                    'Ne, nes sukant liemenį sužeisti neįmanoma.',
+                    false
+                ),
+                new Answer(
+                    'Taip.',
+                    true
+                ),
+            ]
+        ),    
+        new Question(
+            'Rizikos veiksniai skirstomi į tokias grupes: biologiniai, cheminiai, fizikiniai, fiziniai, ergonominiai. Kokiai rizikos veiksnių grupei priklauso pavojus nukristi iš aukščio?',
+            [
+                new Answer(
+                    'Ergonominių.',
+                    false
+                ),
+                new Answer(
+                    'Fizikinių.',
+                    false
+                ),
+                new Answer(
+                    'Fizinių.',
+                    true
+                ),
+            ]
+        ),  
+        new Question(
+            'Asmuo, nukentėjęs nuo nelaimingo atsitikimo darbe arba jo atstovas nustatyta tvarka turi teisę:',
+            [
+                new Answer(
+                    'susipažinti su nelaimingo atsitikimo darbe ar profesinės ligos tyrimo medžiaga.',
+                    true
+                ),
+                new Answer(
+                    'reikalauti papildomos apmokamos nedarbo dienos.',
+                    false
+                ),
+                new Answer(
+                    'reikalauti priedo prie atlyginimo.',
+                    false
+                ),
+            ]
+        ),  
+        new Question(
+            'Kas gali pareikalauti, kad darbdaviui atstovaujantis asmuo pakartotinai pasitikrintų darbuotojų saugos ir sveikatos srities žinias, jeigu ištyrus nelaimingą atsitikimą nustatoma, kad darbdaviui atstovaujantis asmuo nepakankamai susipažinęs su darbuotojų saugos ir sveikatos reikalavimais?',
+            [
+                new Answer(
+                    'Profesinė sąjunga ar darbuotojų atstovai Valstybinės darbo inspekcijos siūlymu.',
+                    false
+                ),
+                new Answer(
+                    'Vyriausiasis valstybinis darbo inspektorius.',
+                    true
+                ),
+                new Answer(
+                    'Valstybinės darbo inspekcijos inspektorius.',
+                    false
+                ),
+            ]
+        ),    
+        new Question(
+            'Ar apsauginis nuo saulės kremas priskiriamas prie darbdavio išduodamų asmeninių apsaugos priemonių?',
+            [
+                new Answer(
+                    'Ne, nes asmeninėms apsaugos priemonėms priskiriama kūno apranga ir įtaisai nuo kritimo iš aukščio.',
+                    false
+                ),
+                new Answer(
+                    'Taip, jeigu darbai vykdomi saulėje.',
+                    true
+                ),
+                new Answer(
+                    'Ne, nes tai nėra tiesioginė odos apsaugos priemonė.',
+                    false
+                ),
+            ]
+        ),                                                                                                                              
     ]
     )
 ];
