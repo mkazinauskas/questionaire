@@ -1,6 +1,6 @@
-import Answer from "./Answer";
-import Question from "./Question";
-import TestGroup from "./TestGroup";
+import Answer from "../Answer";
+import Question from "../Question";
+import TestGroup from "../TestGroup";
 
 const QUESTIONS_D1= new TestGroup(
     'D-1', [
