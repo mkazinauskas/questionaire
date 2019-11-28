@@ -2,8 +2,8 @@ import Answer from "../Answer";
 import Question from "../Question";
 import TestGroup from "../TestGroup";
 
-const QUESTIONS_DF1 = new TestGroup(
-    'QUESTIONS_DF_1_5', [
+const QUESTIONS_DF_1_5 = new TestGroup(
+    'DF1-5', [
     new Question(
         'Darbuotojas ar darbdavys (-iai), kurio (-ių) įmonėje (-ėse) buvo atliekamas darbuotojo darbo sąlygų tyrimas, nesutinkantys su Centrinės darbo medicinos ekspertų komisijos išvada, gali ją skųsti:',
         [
