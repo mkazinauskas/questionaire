@@ -1,6 +1,6 @@
 import React from 'react'
 import ResultsComponent from './ResultsComponent'
-import QuestionsDatabase from '../QuestionsDatabase'
+import QuestionsDatabase from '../database/QuestionsDatabase'
 import QuestionComponent from './QuestionComponent';
 import { Header } from 'semantic-ui-react';
 

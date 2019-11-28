@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header } from 'semantic-ui-react';
 import { Checkbox, Divider } from 'semantic-ui-react';
-import QuestionsDatabase from './QuestionsDatabase';
+import QuestionsDatabase from './database/QuestionsDatabase';
 
 function renderAnswer(answer) {
     const correctAnswerStyle = { 'paddingTop': '10px', 'fontWeight': 'bold' };
