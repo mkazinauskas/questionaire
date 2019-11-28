@@ -6,3 +6,7 @@ Už klausimų ir atsakymų teisingumą neatsakau.
 Už sistemos veikimą neatsakau.
 Šiaip tai iš is už nieką neatsakau.
 Jei kas nors nepatinka, registruokit issue [čia](https://github.com/modestukasai/questionaire/issues)
+
+# Kaip paleisti lokaliai
+* `npm install && npm start`
+* Viską gallima pasiekti `localhost:3000`
